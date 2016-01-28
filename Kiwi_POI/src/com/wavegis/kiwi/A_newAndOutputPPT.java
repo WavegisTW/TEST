@@ -12,6 +12,7 @@ public class A_newAndOutputPPT {
 		return new XMLSlideShow();
 	}
 
+	
 	public void outputPPT(XMLSlideShow ppt, String filePath) {
 		// 新增一個file -> ppt寫進file中
 		File file = new File(filePath);
